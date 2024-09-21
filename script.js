@@ -7,19 +7,19 @@ function createDeck() {
     const spade = ["1as♠", "2♠", "3♠", "4♠", "5♠", "6♠", "7♠", "8♠", "9♠", "10♠", "J♠", "Q♠", "K♠"];
     const club = ["1as♣", "2♣", "3♣", "4♣", "5♣", "6♣", "7♣", "8♣", "9♣", "10♣", "J♣", "Q♣", "K♣"];
 
-    const setCards = heart.concat(diamond, spade, club);
+    const deck = heart.concat(diamond, spade, club);
 
-    function shuffleSetCards(cards) {
+    function shuffleCards(cards) {
         for (let i = cards.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
             [cards[i], cards[j]] = [cards[j], cards[i]];
         } return cards 
     }
 
-    shuffleSetCards(setCards)
-    return setCards;
+    shuffleCards(deck)
+    return deck;
 
 }
 
-const deck = createDeck();
-console.log(deck);
+const shuffledDeck = createDeck();
+console.log(shuffledDeck);
