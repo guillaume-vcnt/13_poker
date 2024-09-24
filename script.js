@@ -14,8 +14,9 @@ function createDeck() {
             const j = Math.floor(Math.random() * (i + 1));
             [cards[i], cards[j]] = [cards[j], cards[i]];
         } return cards 
+        // Fisher-Yates Algorith
     }
-
+    
     shuffleCards(deck)
     return deck;
 
