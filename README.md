@@ -5,17 +5,15 @@ Cet exercice individuel consiste à écrire la logique d'un jeu de poker suivant
 
 ## Caractéristiques
 
-État du projet : En cours 
+État du projet : En cours
 
-Responsivité : Non Responsive 
-
-Nombre de participants : 1 
+Nombre de participants : 1
 
 Technologies : JavaScript
 
-IDE : VsCode
+IDE : VSCode
 
-OS : Windows
+OS : Windows 
 
 ## Utilisation 
 
