@@ -1,7 +1,7 @@
 13_poker
 
 ## À propos 
-Cet Kata consiste à écrire la logique d'un jeu de poker suivant les règles du Texas hold'em.
+Cet exercice consiste à écrire la logique d'un jeu de poker suivant les règles du Texas hold'em.
 
 ## Caractéristiques
 
