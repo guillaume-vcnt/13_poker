@@ -47,7 +47,7 @@ function flop() {
   secondRound.splice(0, 1);
   let thirdRound = deal(2);
   thirdRound.splice(0, 1);
-  const flopDeck = firstRound.concat(secondRound, thirdRound);
+  const flopDeck = [...firstRound, ...secondRound, ...thirdRound];
   return flopDeck;
 }
 
