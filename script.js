@@ -27,7 +27,6 @@ shuffleCards(deck);
 const shuffledDeck = shuffleCards(deck);
 // console.log(shuffledDeck);
 
-// function qui retire un nombre de cartes du shuffledDeck avec .splice()
 function deal(nbCard) {
   const dealDeck = shuffledDeck.splice(0, nbCard);
     // console.log(dealDeck);
